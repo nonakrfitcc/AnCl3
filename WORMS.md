@@ -36,8 +36,9 @@ full-height, so lowercase `by` reads more easily before them, and uppercase
 
 - **Claude sessions** use a handle derived from the six-character nonce at the
   end of the session's branch name: the letters in order, then the digits in
-  order (`5k8o4a` gives `koa584`). Each conversation gets its own handle,
-  which keeps authors from colliding.
+  order (`5k8o4a` gives `koa584`); see also [`CLAUDE.md`](CLAUDE.md) for the
+  rule in full. Each conversation gets its own handle, which keeps authors
+  from colliding.
 - **Humans** use their username.
 
 ## Timestamps
@@ -64,5 +65,3 @@ only when a toolchain demands it, as `.java` does.
 - Rules evolve, so older worms won't always match the latest rules. That's
   expected. Don't "fix" them.
 - Everything is committed straight to `main`. No branches.
-
-See also: [`CLAUDE.md`](CLAUDE.md), which has the handle rules in full.

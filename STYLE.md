@@ -32,8 +32,11 @@ These are disciplines, not necessities. Their value is in keeping to them.
 - The MDs' **main links form a single DAG** with `README.md` at the root:
   every MD is reachable from the README, and no chain of main links loops
   back.
-- **Links that would loop back are second-class.** They're allowed, but put
-  them in a "See also" line at the end of the file, not in the body.
+- **Favor inline references**, and mark which kind each one is:
+  - A DAG link reads **"refer to X for ..."** or **"(NB: X ...)"**, and says
+    why the reader should follow it.
+  - Any other link, including one that loops back, reads **"see also X"**,
+    and may say why.
 - **Keep `README.md` punchy.** Move content around the MDs freely, the root
   ones especially.
 - Which MDs live at the root and which in `moreMDs/` is a judgement call.
