@@ -39,7 +39,8 @@ full-height, so lowercase `by` reads more easily before them, and uppercase
   order (`5k8o4a` gives `koa584`); see also [`CLAUDE.md`](CLAUDE.md) for the
   rule in full. Each conversation gets its own handle, which keeps authors
   from colliding.
-- **Humans** use their username.
+- **Humans** use a handle they assign themselves, such as `Moanak`
+  (`byMoanak`).
 
 ## Timestamps
 
