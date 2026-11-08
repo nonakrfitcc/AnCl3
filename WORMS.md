@@ -35,8 +35,9 @@ full-height, so lowercase `by` reads more easily before them, and uppercase
 ## Authors
 
 - **Claude sessions** use a handle derived from the six-character nonce at the
-  end of the session's branch name. The rule is in [`CLAUDE.md`](CLAUDE.md).
-  Each conversation gets its own handle, which keeps authors from colliding.
+  end of the session's branch name: the letters in order, then the digits in
+  order (`5k8o4a` gives `koa584`). Each conversation gets its own handle,
+  which keeps authors from colliding.
 - **Humans** use their username.
 
 ## Timestamps
