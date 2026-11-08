@@ -26,7 +26,7 @@ UTCworms/in202611/BYjokede/07225519.md
 UTCworms/in202611/BYkoa584/08091500.py
 UTCworms/in202611/byAlice/08101200.md
 UTCworms/in202611/by123456/08101300.txt
-UTCworms/in202611/byMoanak/08215444.DIR/playmate.tsp
+UTCworms/in202611/byAlice/08101500.DIR/notes.txt
 ```
 
 The prefix is chosen to contrast with the name. Digits and capitals are
