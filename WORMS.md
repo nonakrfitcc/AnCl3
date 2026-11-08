@@ -69,8 +69,8 @@ group of files that belong together.
    added to it later. Bees commit the whole bundle in one commit. A human whose
    tools add one file per commit may add them in a short run of consecutive
    commits, and the bundle is closed when that run ends.
-3. **Files inside** may have any names, as long as they keep to 8.3 and the
-   filename rules in [`STYLE.md`](STYLE.md).
+3. **Files inside** may have any names that keep to 8.3. Refer to
+   [`STYLE.md`](STYLE.md) for the other filename rules they must follow.
 4. **The timestamp** is when the bundle was started.
 
 ## What's fixed and what isn't
