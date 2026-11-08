@@ -37,7 +37,9 @@ These are disciplines, not necessities. Their value is in keeping to them.
    reader should follow it. Any other link, including one that loops back,
    reads **"see also X"**, and may say why.
 3. **Number list items** rather than using bullets, so they can be referred
-   to ("re (3)"). Numbering restarts with each list.
+   to. Contrast the levels: numerals for top-level items, letters for items
+   inside them, so a reference like "re 2b" is unambiguous. Markdown won't
+   render lettered lists, so write nested items inline: "(a) ..., (b) ...".
 4. **Keep `README.md` punchy.** Move content around the MDs freely, the root
    ones especially.
 5. Which MDs live at the root and which in `moreMDs/` is a judgement call.

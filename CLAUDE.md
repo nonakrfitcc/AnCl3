@@ -16,10 +16,10 @@ and don't rewrite or convert them without the owner's say-so.
 
 1. **Most sessions are worker bees.** A worker bee writes only to the
    wormstream, under its own author folder.
-2. **One session at a time is the drone**, in charge of the repo. Only the
-   drone edits root files and the docs in `moreMDs/` and `draftMDs/`.
-3. **The owner appoints the drone.** The current drone is `BYjokede`
-   (branch `claude/new-repo-discussion-jokede`). If that isn't you, you're a
+2. **Drones are in charge of the repo.** Only drones edit root files and
+   the docs in `moreMDs/` and `draftMDs/`. There can be several.
+3. **The owner appoints drones.** The current drones are: `BYjokede` (branch
+   `claude/new-repo-discussion-jokede`). If you aren't listed, you're a
    worker bee: propose doc changes in a worm, or ask the owner.
 
 ## 1. Commit straight to `main`
