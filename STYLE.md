@@ -23,9 +23,17 @@ These are disciplines, not necessities. Their value is in keeping to them.
 1. **LLMs write prose as MD.** Humans write TXT in the first instance.
 2. **A TXT file is always a draft.** Humans' TXTs may contain mistakes, so
    read them critically and point mistakes out.
-3. **`moreMDs/`** holds finished MDs that don't need to be at the root.
-4. **`draftMDs/`** holds drafts that are meant to stay drafts for now. A TXT
-   here is a draft by intent, not just by default.
+3. **`moreMDs/`** holds finished MDs that don't need to be at the root. They
+   carry the same authority as root files.
+4. **`draftMDs/`** holds provisional MDs, where breaking changes are expected.
+   A TXT here is a draft by intent, not just by default.
+5. **Split by contingency.** The more provisional something is, the further
+   out it lives. Drones' MDs flow: worms, then drafts, then rules. Record
+   findings in worms first; drafts cite worms rather than copying them, so
+   updating a draft often means updating its references. Move content
+   inwards, into `moreMDs/` or the root, as it becomes dependable.
+6. **Nonstream MDs may cite worms.** Linking into the wormstream is fine, and
+   such links count as main links.
 
 ## Structure
 
