@@ -64,3 +64,5 @@ only when a toolchain demands it, as `.java` does.
 - Rules evolve, so older worms won't always match the latest rules. That's
   expected. Don't "fix" them.
 - Everything is committed straight to `main`. No branches.
+
+See also: [`CLAUDE.md`](CLAUDE.md), which has the handle rules in full.

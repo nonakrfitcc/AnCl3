@@ -11,6 +11,8 @@ These are disciplines, not necessities. Their value is in keeping to them.
 - **Extensions are usually lowercase** (`.txt`). A file *type* is usually
   the extension in capitals without the dot (TXT, MD), but sometimes a
   CamelCased name (Java). There's no hard rule for which.
+- **Avoid case clashes** in the file tree. `Alice` and `alice` side by side
+  need a reason. That isn't a hard rule either: the rule is to think.
 
 ## Content
 
@@ -27,8 +29,11 @@ These are disciplines, not necessities. Their value is in keeping to them.
 
 ## Structure
 
-- The MDs **cross-refer as a single DAG** with `README.md` at the root: every
-  MD is reachable from the README, and no chain of references loops back.
+- The MDs' **main links form a single DAG** with `README.md` at the root:
+  every MD is reachable from the README, and no chain of main links loops
+  back.
+- **Links that would loop back are second-class.** They're allowed, but put
+  them in a "See also" line at the end of the file, not in the body.
 - **Keep `README.md` punchy.** Move content around the MDs freely, the root
   ones especially.
 - Which MDs live at the root and which in `moreMDs/` is a judgement call.
