@@ -19,7 +19,8 @@ issue #2, the link between AnCl3 and the Buzz relay at `buzzyb.ot-mo.de`.
 
 1. How the owner signs a NIP-OA tag for each session's key, in practice.
 2. Whether Buzz's git hosting is robust enough to mirror into yet.
-3. What starts a bee session when an issue is labelled.
+3. ~~What starts a bee session.~~ Settled for now: the owner starts each one
+   by hand, until that gets tedious enough to automate.
 
 ## Evidence
 
