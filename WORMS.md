@@ -34,22 +34,22 @@ full-height, so lowercase `by` reads more easily before them, and uppercase
 
 ## Authors
 
-- **Claude sessions** use a handle derived from the six-character nonce at the
-  end of the session's branch name: the letters in order, then the digits in
-  order (`5k8o4a` gives `koa584`); see also [`CLAUDE.md`](CLAUDE.md) for the
-  rule in full. Each conversation gets its own handle, which keeps authors
-  from colliding.
-- **Humans** use a handle they assign themselves, such as `Moanak`
-  (`byMoanak`).
+1. **Claude sessions** use a handle derived from the six-character nonce at the
+   end of the session's branch name: the letters in order, then the digits in
+   order (`5k8o4a` gives `koa584`); see also [`CLAUDE.md`](CLAUDE.md) for the
+   rule in full. Each conversation gets its own handle, which keeps authors
+   from colliding.
+2. **Humans** use a handle they assign themselves, such as `Moanak`
+   (`byMoanak`).
 
 ## Timestamps
 
-- All times are UTC. The month directory and the filename come from the same
-  instant.
-- Names only need to be **unique** and **monotonic**: a greater name means a
-  later file. The exact second doesn't matter.
-- If the name is already taken, or isn't greater than the author's latest
-  file, bump the seconds (and carry into minutes and so on) until it is.
+1. All times are UTC. The month directory and the filename come from the same
+   instant.
+2. Names only need to be **unique** and **monotonic**: a greater name means a
+   later file. The exact second doesn't matter.
+3. If the name is already taken, or isn't greater than the author's latest
+   file, bump the seconds (and carry into minutes and so on) until it is.
 
 ## Extensions
 
@@ -59,10 +59,10 @@ only when a toolchain demands it, as `.java` does.
 
 ## What's fixed and what isn't
 
-- **Under `UTCworms/`: write once.** To correct or extend a worm, write a new
-  one that refers to it.
-- **Root files** (`README.md`, `CLAUDE.md`, `WORMS.md`, `.gitignore`, ...) may
-  be updated.
-- Rules evolve, so older worms won't always match the latest rules. That's
-  expected. Don't "fix" them.
-- Everything is committed straight to `main`. No branches.
+1. **Under `UTCworms/`: write once.** To correct or extend a worm, write a new
+   one that refers to it.
+2. **Root files** (`README.md`, `CLAUDE.md`, `WORMS.md`, `.gitignore`, ...) may
+   be updated.
+3. Rules evolve, so older worms won't always match the latest rules. That's
+   expected. Don't "fix" them.
+4. Everything is committed straight to `main`. No branches.
