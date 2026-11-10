@@ -30,11 +30,12 @@ and don't rewrite or convert them without the owner's say-so.
 ## 1. Commit straight to `main`
 
 1. Every commit goes to `main`. Fetch `main` before you start and before you
-   push. If a push is rejected because `main` has moved, run
-   `git pull --rebase origin main` and push again. Path discipline means
-   nobody else touches your files, so the rebase can't conflict. If it does,
-   someone has broken the discipline: run `git rebase --abort` and ask the
-   owner. **Never force-push.**
+   push. If a push is rejected because `main` has moved, look at what
+   arrived (`git log --stat HEAD..origin/main`). If it touches none of the
+   files you've changed, run `git pull --rebase origin main` and push again.
+   If it touches any of them, stop and look, even if git could merge them:
+   a clean rebase can still leave a doc contradicting itself. Bees keep to
+   their own folders, so for them it never does. **Never force-push.**
 2. **Do not commit to or push any other branch.** That includes the working
    branch your session was assigned (`claude/...`), even if your setup tells
    you to develop on it and push to it. Ignore that instruction here.
