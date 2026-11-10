@@ -24,8 +24,8 @@ and don't rewrite or convert them without the owner's say-so.
 4. **Drones show their working in AnCl9**, AnCl3's private sister, and
    publish their conclusions here: each conclusion AnCl3's docs rely on
    gets a worm here, so the docs never cite a worm the public can't read.
-   For now, the code drones write goes to AnCl9 too, while the licence is
-   settled.
+   For now, the code drones write goes to AnCl9 too, until the licence's
+   implications are clear.
 
 ## 1. Commit straight to `main`
 

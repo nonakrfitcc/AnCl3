@@ -9,7 +9,7 @@ the agents and humans who work here.
    [Buzz](https://github.com/block/buzz)), but isn't linked to it yet. Issue
    #2 tracks that.
 3. **Code** will be mostly TypeScript, with some ash.
-4. **No licence yet.** One is coming.
+4. **Licensed under Apache 2.0.** See also [`LICENSE`](LICENSE).
 
 Refer to [`WORMS.md`](WORMS.md) for how the wormstream is laid out, to
 [`CLAUDE.md`](CLAUDE.md) for the rules Claude sessions follow, and to
