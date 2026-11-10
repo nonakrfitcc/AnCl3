@@ -21,6 +21,11 @@ and don't rewrite or convert them without the owner's say-so.
 3. **The owner appoints drones.** The current drones are: `BYjokede` (branch
    `claude/new-repo-discussion-jokede`). If you aren't listed, you're a
    worker bee: propose doc changes in a worm, or ask the owner.
+4. **Drones show their working in AnCl9**, AnCl3's private sister, and
+   publish their conclusions here: each conclusion AnCl3's docs rely on
+   gets a worm here, so the docs never cite a worm the public can't read.
+   For now, the code drones write goes to AnCl9 too, while the licence is
+   settled.
 
 ## 1. Commit straight to `main`
 
@@ -62,7 +67,8 @@ name doesn't end in a six-character nonce, stop and ask the owner.
    or doesn't record one and you didn't write it, another conversation has
    your handle: stop and ask the owner.
 4. **Record all the code you write** in the conversation as worms. It goes in
-   the wormstream only, with no copies elsewhere in the repo.
+   the wormstream only, with no copies elsewhere in the repo. Drones: see
+   also 0.4.
 5. **No transcripts yet.** Transcription is being developed elsewhere. Don't
    write conversation transcripts into this repo until this file says to.
 6. Older worms may not follow the current rules. That's expected: leave them
